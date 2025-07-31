@@ -347,7 +347,7 @@ footer {
     
     #about-me {
         padding-top: 10%;
-        min-height: 50vh;
+        min-height: 70vh;
     }
 
     .about-image img {
@@ -368,7 +368,7 @@ footer {
     /* Skills */
     #skills {
         padding-top: 10%;
-        min-height: 53vh;
+        min-height: 70vh;
         margin-bottom: 15%;
     }
 
