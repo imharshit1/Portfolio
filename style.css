@@ -287,6 +287,7 @@ footer {
 }
 
 .copyright {
+    background-color: #926141;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -298,6 +299,21 @@ footer {
     margin-right: 0.5rem;
     margin-left: 0.5rem;
     color: #ff004f;
+}
+
+.privacy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDC89D;
+    height: 100%;
+    color: black;
+}
+
+.privacy a {
+    margin-left: 1rem;
+    font-size: 1.8rem;
+    color: #926141;
 }
 
 
@@ -421,7 +437,7 @@ footer {
 
 @media (max-width: 376px) {
     * {
-        font-size: 50%;
+        font-size: 40%;
     }
     
     /* Nav bar */
