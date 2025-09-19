@@ -222,34 +222,24 @@
 }
 
 #contact-me .container {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     gap: 0rem;
 }
 
 #contact-me .headings {
     color: #926141;
+    margin-bottom: 3.5rem;
 }
 
-.contact-left .headings{
-    text-align: left;
+
+
+.contact form {
+    width: 60%;
+    justify-self: center;  /* center horizontally */
 }
 
-.contact-left .contents {
-    margin-top: 3%;
-    text-align:left;
-    padding-left: 0%;
-}
-
-.contact-left .contents i {
-    margin-right: 0.5rem;
-}
-
-.contact-right form {
-    width: 100%;
-}
-
-.contact-right form input, textarea {
+.contact form input, textarea {
     width: 100%;
     border: 0.2rem solid #926141;
     outline: none;
@@ -272,9 +262,9 @@ textarea:focus::placeholder {
   color: transparent;
 }
 
-.contact-right .btn {
-    display: inline-block;
-    margin-top: 0px;
+.contact .btn {
+    display: flex;
+    justify-self: center;  /* center horizontally */
 }
 
 /* Footer */
@@ -409,13 +399,7 @@ footer {
         padding-bottom: 10%;
     }
 
-    .contact-left {
-        padding-left: 1rem;
-        padding-top: 20%;
-        margin-left: 0%;
-    }
-
-    .contact-right {
+    .contact {
         padding-top: 10%;
         
     }
@@ -540,10 +524,6 @@ footer {
         gap : 5rem;
         padding-left: 10rem;
         padding-right: 10rem;
-    }
-
-    .contact-left{
-        padding-left: 0rem;
     }
     
 }
